@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(232, 232, 212, 0.877);
+}
+body .container {
+  background-color: rgb(75, 129, 129);
+  border-radius: 15px;
+  padding: 50px;
+}
+body .container .minus {
+  width: 100px;
+  font-size: 80px;
+  border-radius: 10px;
+  border-style: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+body .container #number {
+  width: 100px;
+  font-size: 80px;
+  border-radius: 10px;
+  border-style: none;
+}
+body .container .plus {
+  width: 100px;
+  font-size: 80px;
+  border-radius: 10px;
+  border-style: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
