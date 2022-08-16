@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .container {
+  height: 300;
+  background-color: rgb(230, 226, 180);
+}
+body .container .row {
+  padding: 10px;
+}
+body .container .row input {
+  width: 200px;
+  height: 60px;
+}
+body .container .row button {
+  width: 50px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
