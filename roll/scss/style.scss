@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  font-family: "Roboto Mono";
+  font-weight: 800;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+    #img {
+      width: 200px;
+      margin-bottom: 30px;
+      transition-duration: 0.8s;
+      transition-property: transform;
+      .rotate {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    #button {
+      background-color: white;
+      font-family: "Roboto Mono";
+      font-weight: 800;
+      border-radius: 15px;
+      padding: 10px;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+
+    #input {
+      background-color: white;
+      font-family: "Roboto Mono";
+      font-weight: 800;
+      border-radius: 15px;
+      border-color: black;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}

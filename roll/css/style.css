@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  font-family: "Roboto Mono";
+  font-weight: 800;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+body .container #img {
+  width: 200px;
+  margin-bottom: 30px;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+body .container #img .rotate {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+body .container #button {
+  background-color: white;
+  font-family: "Roboto Mono";
+  font-weight: 800;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+body .container p {
+  margin-bottom: 30px;
+}
+body .container #input {
+  background-color: white;
+  font-family: "Roboto Mono";
+  font-weight: 800;
+  border-radius: 15px;
+  border-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
