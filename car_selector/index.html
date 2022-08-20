@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="js/script.js"></script>
+    <title>Car selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./img/299158247_429711732523819_3627260156092393024_n.png"
+        alt="car"
+        class="img"
+      />
+      <div class="options">
+        <div class="row">
+          <button data-type="type-minus" class="button" onclick="btnHandler(this)"><</button>
+          <input
+            type="text"
+            disabled
+            class="input"
+            id="type"
+            placeholder="Choose a type"
+          />
+          <button data-type="type-plus" class="button" onclick="btnHandler(this)">></button>
+        </div>
+        <div class="row">
+          <button data-type="size-minus" class="button" onclick="btnHandler(this)"><</button>
+          <input
+            type="text"
+            disabled
+            class="input"
+            id="size"
+            placeholder="Choose the size"
+          />
+          <button data-type="size-plus" class="button" onclick="btnHandler(this)">></button>
+        </div>
+        <div class="row">
+          <button data-type="color-minus" class="button" onclick="btnHandler(this)"><</button>
+          <input
+            type="text"
+            disabled
+            class="input"
+            id="color"
+            placeholder="Choose a color"
+          />
+          <button data-type="color-plus" class="button" onclick="btnHandler(this)">></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

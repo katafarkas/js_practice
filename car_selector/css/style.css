@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  font-family: "Roboto";
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+body .container .img {
+  margin-bottom: 40px;
+}
+body .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .container .row .button {
+  background-color: white;
+  border-style: none;
+  font-weight: 600;
+  font-size: 30px;
+  cursor: pointer;
+}
+body .container .row .input {
+  background-color: white;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
